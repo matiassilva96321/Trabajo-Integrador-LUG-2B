@@ -1,0 +1,17 @@
+D:\Matias\desktop\LUG\Estacionamiento\Dal\bin\Debug\net9.0\Dal.deps.json
+D:\Matias\desktop\LUG\Estacionamiento\Dal\bin\Debug\net9.0\Dal.dll
+D:\Matias\desktop\LUG\Estacionamiento\Dal\bin\Debug\net9.0\Dal.pdb
+D:\Matias\desktop\LUG\Estacionamiento\Dal\bin\Debug\net9.0\Entitys.dll
+D:\Matias\desktop\LUG\Estacionamiento\Dal\bin\Debug\net9.0\Mapper.dll
+D:\Matias\desktop\LUG\Estacionamiento\Dal\bin\Debug\net9.0\Entitys.pdb
+D:\Matias\desktop\LUG\Estacionamiento\Dal\bin\Debug\net9.0\Mapper.pdb
+D:\Matias\desktop\LUG\Estacionamiento\Dal\obj\Debug\net9.0\Dal.csproj.AssemblyReference.cache
+D:\Matias\desktop\LUG\Estacionamiento\Dal\obj\Debug\net9.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Matias\desktop\LUG\Estacionamiento\Dal\obj\Debug\net9.0\Dal.AssemblyInfoInputs.cache
+D:\Matias\desktop\LUG\Estacionamiento\Dal\obj\Debug\net9.0\Dal.AssemblyInfo.cs
+D:\Matias\desktop\LUG\Estacionamiento\Dal\obj\Debug\net9.0\Dal.csproj.CoreCompileInputs.cache
+D:\Matias\desktop\LUG\Estacionamiento\Dal\obj\Debug\net9.0\Dal.csproj.Up2Date
+D:\Matias\desktop\LUG\Estacionamiento\Dal\obj\Debug\net9.0\Dal.dll
+D:\Matias\desktop\LUG\Estacionamiento\Dal\obj\Debug\net9.0\refint\Dal.dll
+D:\Matias\desktop\LUG\Estacionamiento\Dal\obj\Debug\net9.0\Dal.pdb
+D:\Matias\desktop\LUG\Estacionamiento\Dal\obj\Debug\net9.0\ref\Dal.dll

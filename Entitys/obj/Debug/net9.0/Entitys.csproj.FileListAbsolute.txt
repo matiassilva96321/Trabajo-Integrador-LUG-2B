@@ -1,0 +1,11 @@
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\bin\Debug\net9.0\Entitys.deps.json
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\bin\Debug\net9.0\Entitys.dll
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\bin\Debug\net9.0\Entitys.pdb
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\Entitys.GeneratedMSBuildEditorConfig.editorconfig
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\Entitys.AssemblyInfoInputs.cache
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\Entitys.AssemblyInfo.cs
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\Entitys.csproj.CoreCompileInputs.cache
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\Entitys.dll
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\refint\Entitys.dll
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\Entitys.pdb
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\ref\Entitys.dll
