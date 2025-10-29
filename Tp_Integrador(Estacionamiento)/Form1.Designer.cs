@@ -337,7 +337,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(544, 9);
             label2.Name = "label2";
-            label2.Size = new Size(43, 15);
+            label2.Size = new Size(44, 15);
             label2.TabIndex = 26;
             label2.Text = "Turnos";
             // 
@@ -395,6 +395,7 @@
             Controls.Add(dtgAutos);
             Name = "Form1";
             Text = "Estacionamiento";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dtgAutos).EndInit();
             ((System.ComponentModel.ISupportInitialize)dtgTurnos).EndInit();
             ((System.ComponentModel.ISupportInitialize)dtgEstadias).EndInit();

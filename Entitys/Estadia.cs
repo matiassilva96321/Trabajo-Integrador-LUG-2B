@@ -12,7 +12,7 @@ namespace Entitys
         public Plaza Plaza { get; set; }
         public Turno TurnoEntrada { get; set; }
         public Turno? TurnoSalida { get; set; }
-        public DateTime Entrada {  get; set; }
+        public DateTime Entrada { get; set; }
         public DateTime? Salida { get; set; }
         public double PrecioHora { get; set; } = 60;
         public double? ImporteTotal { get; set; }
@@ -23,5 +23,8 @@ namespace Entitys
             return (double)Diferencia.TotalMinutes * (this.PrecioHora / 60);
         }
 
+        // Propiedades para mostrar en el DataGridView
+        public int PlazaId => Plaza?.Id ?? 0;
+        public string TurnoEntradaNombre => TurnoEntrada?.EncargadoTurno ?? "";
     }
 }

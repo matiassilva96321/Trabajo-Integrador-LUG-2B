@@ -9,3 +9,15 @@ D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\Entitys.dll
 D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\refint\Entitys.dll
 D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\Entitys.pdb
 D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\ref\Entitys.dll
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\bin\Debug\net9.0\Entitys.deps.json
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\bin\Debug\net9.0\Entitys.dll
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\bin\Debug\net9.0\Entitys.pdb
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\Entitys.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\Entitys.AssemblyInfoInputs.cache
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\Entitys.AssemblyInfo.cs
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\Entitys.csproj.CoreCompileInputs.cache
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\Entitys.sourcelink.json
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\Entitys.dll
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\refint\Entitys.dll
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\Entitys.pdb
+C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\ref\Entitys.dll
