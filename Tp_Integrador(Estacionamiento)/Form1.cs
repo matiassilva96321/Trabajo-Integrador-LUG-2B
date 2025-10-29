@@ -69,7 +69,17 @@ namespace Tp_Integrador_Estacionamiento_
         public void TraerEstadias()
         {
             dtgEstadias.DataSource = null;
-            dtgEstadias.DataSource= EstadiaBss.TraerEstadias();
+            dtgEstadias.DataSource = EstadiaBss.TraerEstadias()
+                .Select(e => new
+                {
+                    e.Id,
+                    Plaza = e.PlazaId,
+                    TurnoEntrada = e.TurnoEntradaNombre,
+                    e.Entrada,
+                    e.Salida,
+                    e.PrecioHora,
+                    e.ImporteTotal
+                }).ToList();
         }
         public void ChequearPlazas(List<Plaza> plazas)
         {
@@ -111,7 +121,7 @@ namespace Tp_Integrador_Estacionamiento_
             try
             {
                 TurnoEstacionamiento.MontoCierre += TurnoEstacionamiento.MontoApertura;
-                TurnoEstacionamiento.TotalGenerado= TurnoEstacionamiento.CalcularTotal();
+                TurnoEstacionamiento.TotalGenerado = TurnoEstacionamiento.CalcularTotal();
                 TurnoBss.CerrarTurno(TurnoEstacionamiento);
                 TraerTurnos();
                 MessageBox.Show("El turno fue cerrado con exito");
@@ -206,11 +216,11 @@ namespace Tp_Integrador_Estacionamiento_
                     EstadiaEstacionamiento.Plaza = vehiculo.Plaza;
                     EstadiaEstacionamiento.TurnoEntrada = vehiculo.Turno;
                     EstadiaEstacionamiento.TurnoSalida = TurnoEstacionamiento;
-                    EstadiaEstacionamiento.Entrada= vehiculo.Entrada;
+                    EstadiaEstacionamiento.Entrada = vehiculo.Entrada;
                     EstadiaEstacionamiento.Salida = DateTime.Now;
                     EstadiaEstacionamiento.ImporteTotal = EstadiaEstacionamiento.CalcularImporte();
                     MessageBox.Show($"El total a pagar es {EstadiaEstacionamiento.ImporteTotal}");
-                    TurnoEstacionamiento.MontoCierre=+EstadiaEstacionamiento.ImporteTotal;
+                    TurnoEstacionamiento.MontoCierre = +EstadiaEstacionamiento.ImporteTotal;
                     EstadiaBss.CargarEstadia(EstadiaEstacionamiento);
 
                     vehiculo.Plaza.Estado = false;
@@ -229,6 +239,11 @@ namespace Tp_Integrador_Estacionamiento_
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

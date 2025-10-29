@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Dal\\Dal.csproj": {}
+    "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Dal\\Dal.csproj": {}
   },
   "projects": {
-    "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Dal\\Dal.csproj": {
+    "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Dal\\Dal.csproj",
+        "projectUniqueName": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Dal\\Dal.csproj",
-        "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Dal\\obj\\",
+        "projectPath": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Dal\\Dal.csproj",
+        "packagesPath": "C:\\Users\\Fer_G\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\matia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fer_G\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Entitys.csproj": {
-                "projectPath": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Entitys.csproj"
+              "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Entitys\\Entitys.csproj": {
+                "projectPath": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Entitys\\Entitys.csproj"
               },
-              "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Mapper\\Mapper.csproj": {
-                "projectPath": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Mapper\\Mapper.csproj"
+              "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Mapper\\Mapper.csproj": {
+                "projectPath": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Mapper\\Mapper.csproj"
               }
             }
           }
@@ -83,24 +82,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Entitys.csproj": {
+    "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Entitys\\Entitys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Entitys.csproj",
+        "projectUniqueName": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Entitys\\Entitys.csproj",
         "projectName": "Entitys",
-        "projectPath": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Entitys.csproj",
-        "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\obj\\",
+        "projectPath": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Entitys\\Entitys.csproj",
+        "packagesPath": "C:\\Users\\Fer_G\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Entitys\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\matia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fer_G\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -109,7 +108,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -149,24 +147,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Mapper\\Mapper.csproj": {
+    "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Mapper\\Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Mapper\\Mapper.csproj",
+        "projectUniqueName": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Mapper\\Mapper.csproj",
         "projectName": "Mapper",
-        "projectPath": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Mapper\\Mapper.csproj",
-        "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Mapper\\obj\\",
+        "projectPath": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Mapper\\Mapper.csproj",
+        "packagesPath": "C:\\Users\\Fer_G\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Mapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\matia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fer_G\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -175,15 +173,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Entitys.csproj": {
-                "projectPath": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Entitys.csproj"
+              "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Entitys\\Entitys.csproj": {
+                "projectPath": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Entitys\\Entitys.csproj"
               }
             }
           }
@@ -225,7 +222,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
