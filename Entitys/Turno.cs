@@ -17,9 +17,9 @@ namespace Entitys
         public double? TotalGenerado { get; set; }
         public bool Estado {  get; set; }
 
-        public double CalcularTotal()
+        public double? CalcularTotal()
         {
-            return (Double)(this.MontoCierre-this.MontoApertura);
+            return Convert.ToDouble(MontoCierre-MontoApertura);
         }
     }
 }

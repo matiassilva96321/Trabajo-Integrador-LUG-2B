@@ -22,11 +22,13 @@ namespace Tp_Integrador_Estacionamiento_
         public EstadiaBss EstadiaBss = new EstadiaBss();
         public Turno TurnoEstacionamiento = new Turno();
         public Estadia EstadiaEstacionamiento = new Estadia();
+        public List<Vehiculo> ListaBorrador = new List<Vehiculo>();
 
         public void TraerTurnos()
         {
             dtgTurnos.DataSource = null;
             dtgTurnos.DataSource = TurnoBss.TraerTurnos();
+            dtgTurnos.Columns["Id"].Visible = false;
         }
         public void ChequearTurno()
         {
@@ -41,6 +43,9 @@ namespace Tp_Integrador_Estacionamiento_
                     btnCerrarEstadia.Enabled = true;
                     btnCerrarTurno.Enabled = true;
                     dtgAutos.Enabled = true;
+                    dtgBorrador.Enabled = true;
+                    btnCargarBorrador.Enabled = true;
+                    btnCargaMasiva.Enabled = true;
                 }
                 else
                 {
@@ -51,6 +56,9 @@ namespace Tp_Integrador_Estacionamiento_
                     btnCerrarEstadia.Enabled = false;
                     btnCerrarTurno.Enabled = false;
                     dtgAutos.Enabled = false;
+                    dtgBorrador.Enabled = false;
+                    btnCargarBorrador.Enabled=false;
+                    btnCargaMasiva.Enabled = false;
                 }
             }
             catch (Exception ex)
@@ -63,8 +71,10 @@ namespace Tp_Integrador_Estacionamiento_
         {
             dtgAutos.DataSource = null;
             dtgAutos.DataSource = VehiculoBss.TraerVehiculos();
+            dtgAutos.Columns["Id"].Visible = false;
             dtgAutos.Columns["Plaza"].Visible = false;
             dtgAutos.Columns["Turno"].Visible = false;
+
         }
         public void TraerEstadias()
         {
@@ -72,9 +82,9 @@ namespace Tp_Integrador_Estacionamiento_
             dtgEstadias.DataSource = EstadiaBss.TraerEstadias()
                 .Select(e => new
                 {
-                    e.Id,
-                    Plaza = e.PlazaId,
-                    TurnoEntrada = e.TurnoEntradaNombre,
+                    Plaza = e.Plaza.Id,
+                    TurnoEntrada = e.TurnoEntrada.EncargadoTurno,
+                    TurnoSalida = e.TurnoSalida.EncargadoTurno,
                     e.Entrada,
                     e.Salida,
                     e.PrecioHora,
@@ -91,6 +101,15 @@ namespace Tp_Integrador_Estacionamiento_
                     btn.BackColor = plaza.Estado ? Color.Red : Color.Green;
                 }
             }
+        }
+
+        public void RefrescarBorrador()
+        {
+            dtgBorrador.DataSource = null;
+            dtgBorrador.DataSource = ListaBorrador;
+            dtgBorrador.Columns["Id"].Visible = false;
+            dtgBorrador.Columns["Plaza"].Visible = false;
+            dtgBorrador.Columns["Turno"].Visible = false;
         }
 
         public void btnAbrirTurno_Click(object sender, EventArgs e)
@@ -121,7 +140,9 @@ namespace Tp_Integrador_Estacionamiento_
             try
             {
                 TurnoEstacionamiento.MontoCierre += TurnoEstacionamiento.MontoApertura;
+                TurnoEstacionamiento.MontoCierre = Math.Round(TurnoEstacionamiento.MontoCierre ?? 0, 2);
                 TurnoEstacionamiento.TotalGenerado = TurnoEstacionamiento.CalcularTotal();
+                TurnoEstacionamiento.TotalGenerado = Math.Round(TurnoEstacionamiento.TotalGenerado ?? 0, 2);
                 TurnoBss.CerrarTurno(TurnoEstacionamiento);
                 TraerTurnos();
                 MessageBox.Show("El turno fue cerrado con exito");
@@ -219,6 +240,7 @@ namespace Tp_Integrador_Estacionamiento_
                     EstadiaEstacionamiento.Entrada = vehiculo.Entrada;
                     EstadiaEstacionamiento.Salida = DateTime.Now;
                     EstadiaEstacionamiento.ImporteTotal = EstadiaEstacionamiento.CalcularImporte();
+                    EstadiaEstacionamiento.ImporteTotal = Math.Round(EstadiaEstacionamiento.ImporteTotal ?? 0, 2);
                     MessageBox.Show($"El total a pagar es {EstadiaEstacionamiento.ImporteTotal}");
                     TurnoEstacionamiento.MontoCierre = +EstadiaEstacionamiento.ImporteTotal;
                     EstadiaBss.CargarEstadia(EstadiaEstacionamiento);
@@ -241,9 +263,47 @@ namespace Tp_Integrador_Estacionamiento_
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btnCargarBorrador_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Vehiculo vehiculo = new Vehiculo();
+                vehiculo.Patente = Convert.ToInt32(Interaction.InputBox("Ingrese los 3 numeros de la patente", "ingreso de vehiculo"));
+                vehiculo.Turno = TurnoEstacionamiento;
+                vehiculo.TipoVehiculo = Interaction.InputBox("Ingrese el tipo de vehiculo", "ingreso de vehiculo");
+                vehiculo.Marca = Interaction.InputBox("Ingrese marca del vehiculo", "ingreso de vehiculo");
+                vehiculo.Modelo = Interaction.InputBox("Ingrese modelo del vehiculo", "ingreso de vehiculo");
+                vehiculo.Color = Interaction.InputBox("Ingrese color del vehiculo", "ingreso de vehiculo");
 
+                ListaBorrador.Add(vehiculo);
+                RefrescarBorrador();
+                MessageBox.Show("Vehiculo cargado en borrador, para confirmar cargar el mismo", "Mensaje del sistema");
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
+
+        private void btnCargaMasiva_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                VehiculoBss.CargaMasiva(ListaBorrador);
+                TraerVehiculos();
+                ListaBorrador.Clear();
+                RefrescarBorrador();
+                ChequearPlazas(PlazaBss.TraerPlazas());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Error");
+                ListaBorrador.Clear();
+                RefrescarBorrador();
+            }
+        }
+
+        //cambio.-
     }
 }

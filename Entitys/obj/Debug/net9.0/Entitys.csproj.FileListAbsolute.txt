@@ -21,3 +21,4 @@ C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\refint\Entitys.dll
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\Entitys.pdb
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Entitys\obj\Debug\net9.0\ref\Entitys.dll
+D:\Matias\desktop\LUG\Estacionamiento\Entitys\obj\Debug\net9.0\Entitys.sourcelink.json

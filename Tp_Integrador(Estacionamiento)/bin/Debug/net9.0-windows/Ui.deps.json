@@ -329,6 +329,12 @@
         "dependencies": {
           "System.Diagnostics.EventLog": "9.0.10",
           "System.Security.Cryptography.ProtectedData": "9.0.10"
+        },
+        "runtime": {
+          "lib/net9.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1025.47515"
+          }
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.1": {
@@ -336,7 +342,22 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
-      "System.Diagnostics.EventLog/9.0.10": {},
+      "System.Diagnostics.EventLog/9.0.10": {
+        "runtime": {
+          "lib/net9.0/System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1025.47515"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1025.47515"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.7.1": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "7.7.1",
@@ -360,7 +381,14 @@
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Security.Cryptography.Pkcs/9.0.4": {},
-      "System.Security.Cryptography.ProtectedData/9.0.10": {},
+      "System.Security.Cryptography.ProtectedData/9.0.10": {
+        "runtime": {
+          "lib/net9.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1025.47515"
+          }
+        }
+      },
       "System.Text.Json/9.0.5": {},
       "Business/1.0.0": {
         "dependencies": {

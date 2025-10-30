@@ -17,7 +17,7 @@ namespace Mapper
             Estadia.Entrada= Convert.ToDateTime(sqlDataReader["FECHA_HORA_ENTRADA"]);
             Estadia.Salida = sqlDataReader["FECHA_HORA_SALIDA"] as DateTime?;
             Estadia.PrecioHora= Convert.ToDouble(sqlDataReader["PRECIO_HORA"]);
-            Estadia.ImporteTotal= sqlDataReader["IMPORTE_A_PAGAR"] as double?;
+            Estadia.ImporteTotal= (double)sqlDataReader["IMPORTE_A_PAGAR"];
             Estadia.Plaza= Plaza;
             Estadia.TurnoEntrada= TurnoEntrada;
             Estadia.TurnoSalida= TurnoSalida;

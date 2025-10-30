@@ -5,12 +5,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace Business
 {
     public class VehiculoBss
     {
         public VehiculoDal VehiculoDal = new VehiculoDal();
+        public PlazaBss PlazaBss = new PlazaBss();
         public List<Vehiculo> TraerVehiculos()
         {
             try
@@ -27,7 +29,9 @@ namespace Business
         {
             try
             {
-                if (vehiculo.Patente.ToString().Length != 3)
+                using (var trx = new TransactionScope())
+                {
+                    if (vehiculo.Patente.ToString().Length != 3)
                 {
                     throw new Exception("Patente invalida");
                 }
@@ -47,6 +51,8 @@ namespace Business
                 vehiculo.Plaza.Estado = true;
 
                 VehiculoDal.CargarVehiculo(vehiculo);
+                    trx.Complete();
+                }
             }
             catch (Exception ex)
             {
@@ -68,7 +74,9 @@ namespace Business
         {
             try
             {
-                if (vehiculo.Patente.ToString().Length != 3)
+                using (var trx = new TransactionScope())
+                {
+                    if (vehiculo.Patente.ToString().Length != 3)
                 {
                     throw new Exception("Patente invalida");
                 }
@@ -81,11 +89,42 @@ namespace Business
                     throw new Exception("Modelo invalido");
                 }
                 VehiculoDal.ModificarVehiculo(vehiculo);
+                    trx.Complete();
+                }
             }
             catch (Exception ex)
             {
                 throw;
             }
+        }
+
+        public void CargaMasiva(List<Vehiculo>vehiculos)
+        {
+
+            try
+            {
+                if (vehiculos == null || vehiculos.Count == 0)
+                {
+                    throw new ArgumentException("El borrador esta vacio");
+                }
+
+                using (var trx = new TransactionScope())
+                {
+                    foreach (var Vehiculo in vehiculos)
+                    {
+                        Vehiculo.Plaza = PlazaBss.TraerPlazas().FirstOrDefault(p => !p.Estado);
+                        CargarVehiculo(Vehiculo);
+                        PlazaBss.ModificarEstadoPlaza(Vehiculo.Plaza);
+                    }
+                    trx.Complete();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+
+
         }
     }
 }

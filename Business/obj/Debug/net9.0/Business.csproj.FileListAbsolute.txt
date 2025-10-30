@@ -37,3 +37,4 @@ C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Business\obj\Debug\net9
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Business\obj\Debug\net9.0\refint\Business.dll
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Business\obj\Debug\net9.0\Business.pdb
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Business\obj\Debug\net9.0\ref\Business.dll
+D:\Matias\desktop\LUG\Estacionamiento\Business\obj\Debug\net9.0\Business.sourcelink.json

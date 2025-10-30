@@ -27,7 +27,7 @@ namespace Tp_Integrador_Estacionamiento_.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-M38Q9L1\\SQLEXPRESS;Initial Catalog=EstacionamientoBD;Integrat" +
-            "ed Security=True;Trust Server Certificate=True")]
+            "ed Security=True;Encrypt=True;Trust Server Certificate=True")]
         public string EstacionamientoBD {
             get {
                 return ((string)(this["EstacionamientoBD"]));

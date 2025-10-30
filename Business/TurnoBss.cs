@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace Business
 {
@@ -52,21 +53,25 @@ namespace Business
         {
             try
             {
-                if(turno.EncargadoTurno.Length < 3)
+                using (var trx = new TransactionScope())
                 {
-                    throw new Exception("Nombre muy corto");
-                }
-                if (turno.MontoApertura <0)
-                {
-                    throw new Exception("El monto de apentura no puede ser negativo");
-                }
-                turno.FechaHoraApertura=DateTime.Now;
-                turno.FechaHoraCierre = null;
-                turno.MontoCierre = null;
-                turno.TotalGenerado = null;
-                turno.Estado = true;
+                    if (turno.EncargadoTurno.Length < 3)
+                    {
+                        throw new Exception("Nombre muy corto");
+                    }
+                    if (turno.MontoApertura < 0)
+                    {
+                        throw new Exception("El monto de apentura no puede ser negativo");
+                    }
+                    turno.FechaHoraApertura = DateTime.Now;
+                    turno.FechaHoraCierre = null;
+                    turno.MontoCierre = 0;
+                    turno.TotalGenerado = 0;
+                    turno.Estado = true;
 
-                TurnoDal.CargarTurno(turno);
+                    TurnoDal.CargarTurno(turno);
+                    trx.Complete();
+                }
             }
             catch (Exception ex)
             {
@@ -77,19 +82,13 @@ namespace Business
         {
             try
             {
-                if (turno.EncargadoTurno.Length < 3)
+                using (var trx = new TransactionScope())
                 {
-                    throw new Exception("Nombre muy corto");
-                }
-                if (turno.MontoApertura < 0)
-                {
-                    throw new Exception("El monto de apentura no puede ser negativo");
-                }
-                turno.FechaHoraCierre = DateTime.Now;
-                turno.TotalGenerado = turno.CalcularTotal();
+                    turno.FechaHoraCierre = DateTime.Now;
                 turno.Estado = false;
-
                 TurnoDal.ModificarTurno(turno);
+                    trx.Complete();
+                }
             }
             catch (Exception ex)
             {

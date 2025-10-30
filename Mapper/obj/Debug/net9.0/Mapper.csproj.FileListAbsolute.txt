@@ -29,3 +29,4 @@ C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Mapper\obj\Debug\net9.0
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Mapper\obj\Debug\net9.0\refint\Mapper.dll
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Mapper\obj\Debug\net9.0\Mapper.pdb
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Mapper\obj\Debug\net9.0\ref\Mapper.dll
+D:\Matias\desktop\LUG\Estacionamiento\Mapper\obj\Debug\net9.0\Mapper.sourcelink.json

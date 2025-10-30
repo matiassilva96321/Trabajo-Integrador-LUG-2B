@@ -33,3 +33,4 @@ C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Dal\obj\Debug\net9.0\Da
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Dal\obj\Debug\net9.0\refint\Dal.dll
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Dal\obj\Debug\net9.0\Dal.pdb
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Dal\obj\Debug\net9.0\ref\Dal.dll
+D:\Matias\desktop\LUG\Estacionamiento\Dal\obj\Debug\net9.0\Dal.sourcelink.json

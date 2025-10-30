@@ -141,3 +141,4 @@ C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Tp_Integrador(Estaciona
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Tp_Integrador(Estacionamiento)\obj\Debug\net9.0-windows\Ui.pdb
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Tp_Integrador(Estacionamiento)\obj\Debug\net9.0-windows\Ui.genruntimeconfig.cache
 C:\Users\Fer_G\source\repos\Trabajo-Integrador-LUG-2B-MS\Tp_Integrador(Estacionamiento)\obj\Debug\net9.0-windows\ref\Ui.dll
+D:\Matias\desktop\LUG\Estacionamiento\Tp_Integrador(Estacionamiento)\obj\Debug\net9.0-windows\Ui.sourcelink.json

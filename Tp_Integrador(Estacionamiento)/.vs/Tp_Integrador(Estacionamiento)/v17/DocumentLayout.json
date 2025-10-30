@@ -1,17 +1,51 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Tp_Integrador(Estacionamiento)\\",
+  "WorkspaceRootPath": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|c:\\users\\fer_g\\source\\repos\\trabajo-integrador-lug-2b-ms\\tp_integrador(estacionamiento)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|d:\\matias\\desktop\\lug\\estacionamiento\\tp_integrador(estacionamiento)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8B02A3C-33E1-46AA-82D1-D5C832F159F0}|..\\Entitys\\Entitys.csproj|c:\\users\\fer_g\\source\\repos\\trabajo-integrador-lug-2b-ms\\entitys\\estadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|d:\\matias\\desktop\\lug\\estacionamiento\\tp_integrador(estacionamiento)\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|c:\\users\\fer_g\\source\\repos\\trabajo-integrador-lug-2b-ms\\tp_integrador(estacionamiento)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8B02A3C-33E1-46AA-82D1-D5C832F159F0}|..\\Entitys\\Entitys.csproj|d:\\matias\\desktop\\lug\\estacionamiento\\entitys\\estadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8B02A3C-33E1-46AA-82D1-D5C832F159F0}|..\\Entitys\\Entitys.csproj|d:\\matias\\desktop\\lug\\estacionamiento\\entitys\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8B02A3C-33E1-46AA-82D1-D5C832F159F0}|..\\Entitys\\Entitys.csproj|d:\\matias\\desktop\\lug\\estacionamiento\\entitys\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{256BE135-430F-4B3C-9A3E-9B6119487C9F}|..\\Business\\Business.csproj|d:\\matias\\desktop\\lug\\estacionamiento\\business\\vehiculobss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{256BE135-430F-4B3C-9A3E-9B6119487C9F}|..\\Business\\Business.csproj|d:\\matias\\desktop\\lug\\estacionamiento\\business\\turnobss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|d:\\matias\\desktop\\lug\\estacionamiento\\tp_integrador(estacionamiento)\\ui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|solutionrelative:ui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E97DEE0-BF5A-4505-BDBA-7693C92B078F}|..\\Mapper\\Mapper.csproj|d:\\matias\\desktop\\lug\\estacionamiento\\mapper\\turnomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E97DEE0-BF5A-4505-BDBA-7693C92B078F}|..\\Mapper\\Mapper.csproj|d:\\matias\\desktop\\lug\\estacionamiento\\mapper\\estadiamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|d:\\matias\\desktop\\lug\\estacionamiento\\tp_integrador(estacionamiento)\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{F46DE0F0-EE42-4331-BF78-486E35CD5FBB}|Ui.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,20 +55,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Tp_Integrador(Estacionamiento)\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Tp_Integrador(Estacionamiento)\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T21:53:58.397Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -42,29 +71,168 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Estadia.cs",
-              "DocumentMoniker": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Entitys\\Estadia.cs",
-              "RelativeDocumentMoniker": "..\\Entitys\\Estadia.cs",
-              "ToolTip": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Entitys\\Estadia.cs",
-              "RelativeToolTip": "..\\Entitys\\Estadia.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "..\\Entitys\\Vehiculo.cs",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Vehiculo.cs",
+              "RelativeToolTip": "..\\Entitys\\Vehiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T03:09:17.437Z",
+              "WhenOpened": "2025-10-30T23:26:20.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TurnoBss.cs",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Business\\TurnoBss.cs",
+              "RelativeDocumentMoniker": "..\\Business\\TurnoBss.cs",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Business\\TurnoBss.cs",
+              "RelativeToolTip": "..\\Business\\TurnoBss.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAFAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:03:11.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TurnoMapper.cs",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Mapper\\TurnoMapper.cs",
+              "RelativeDocumentMoniker": "..\\Mapper\\TurnoMapper.cs",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Mapper\\TurnoMapper.cs",
+              "RelativeToolTip": "..\\Mapper\\TurnoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:02:30.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T21:39:59.692Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ui",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\Ui.csproj",
+              "RelativeDocumentMoniker": "Ui.csproj",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\Ui.csproj",
+              "RelativeToolTip": "Ui.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-29T21:19:09.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-29T21:18:54.716Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Tp_Integrador(Estacionamiento)\\Form1.cs",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Fer_G\\source\\repos\\Trabajo-Integrador-LUG-2B-MS\\Tp_Integrador(Estacionamiento)\\Form1.cs",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAwwEoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAA8wDEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T03:08:28.253Z",
+              "WhenOpened": "2025-10-29T21:16:19.387Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T21:16:13.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Turno.cs",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Turno.cs",
+              "RelativeDocumentMoniker": "..\\Entitys\\Turno.cs",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Turno.cs",
+              "RelativeToolTip": "..\\Entitys\\Turno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T21:53:23.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Estadia.cs",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Estadia.cs",
+              "RelativeDocumentMoniker": "..\\Entitys\\Estadia.cs",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Entitys\\Estadia.cs",
+              "RelativeToolTip": "..\\Entitys\\Estadia.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T21:46:01.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EstadiaMapper.cs",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Mapper\\EstadiaMapper.cs",
+              "RelativeDocumentMoniker": "..\\Mapper\\EstadiaMapper.cs",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Mapper\\EstadiaMapper.cs",
+              "RelativeToolTip": "..\\Mapper\\EstadiaMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:04:41.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehiculoBss.cs",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Business\\VehiculoBss.cs",
+              "RelativeDocumentMoniker": "..\\Business\\VehiculoBss.cs",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Business\\VehiculoBss.cs",
+              "RelativeToolTip": "..\\Business\\VehiculoBss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T23:32:41.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Properties\\Settings.settings",
+              "ToolTip": "D:\\Matias\\desktop\\LUG\\Estacionamiento\\Tp_Integrador(Estacionamiento)\\Properties\\Settings.settings",
+              "RelativeToolTip": "Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-10-29T21:19:15.96Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 70,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

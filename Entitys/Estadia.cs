@@ -22,9 +22,5 @@ namespace Entitys
             TimeSpan Diferencia = this.Salida.Value - this.Entrada;
             return (double)Diferencia.TotalMinutes * (this.PrecioHora / 60);
         }
-
-        // Propiedades para mostrar en el DataGridView
-        public int PlazaId => Plaza?.Id ?? 0;
-        public string TurnoEntradaNombre => TurnoEntrada?.EncargadoTurno ?? "";
     }
 }
