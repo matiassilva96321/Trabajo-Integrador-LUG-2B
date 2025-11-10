@@ -63,7 +63,11 @@ namespace Business
         {
             try
             {
-                VehiculoDal.BorrarVehiculo(vehiculo);
+                using (var trx = new TransactionScope())
+                {
+                    VehiculoDal.BorrarVehiculo(vehiculo);
+                    trx.Complete();
+                }
             }
             catch (Exception ex)
             {
@@ -112,9 +116,9 @@ namespace Business
                 {
                     foreach (var Vehiculo in vehiculos)
                     {
-                        Vehiculo.Plaza = PlazaBss.TraerPlazas().FirstOrDefault(p => !p.Estado);
+                        Vehiculo.Plaza = PlazaBss.TraerPlazas().FirstOrDefault(p => !p.Estado);//Se le asigna una plaza disponible
                         CargarVehiculo(Vehiculo);
-                        PlazaBss.ModificarEstadoPlaza(Vehiculo.Plaza);
+                        PlazaBss.ModificarEstadoPlaza(Vehiculo.Plaza);//Se modifica el estado de la plaza en BD
                     }
                     trx.Complete();
                 }

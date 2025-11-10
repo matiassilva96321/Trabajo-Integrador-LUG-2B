@@ -24,13 +24,13 @@ namespace Tp_Integrador_Estacionamiento_
         public Estadia EstadiaEstacionamiento = new Estadia();
         public List<Vehiculo> ListaBorrador = new List<Vehiculo>();
 
-        public void TraerTurnos()
+        public void TraerTurnos() //Carga de turnos en dtg
         {
             dtgTurnos.DataSource = null;
             dtgTurnos.DataSource = TurnoBss.TraerTurnos();
             dtgTurnos.Columns["Id"].Visible = false;
         }
-        public void ChequearTurno()
+        public void ChequearTurno() //Chequeo si hay algun turno abierto, si no es el caso se deshabilita la interfaz hasta que se abra un turno
         {
             try
             {
@@ -67,7 +67,7 @@ namespace Tp_Integrador_Estacionamiento_
             }
 
         }
-        public void TraerVehiculos()
+        public void TraerVehiculos()//Carga de vehiculos en dtg
         {
             dtgAutos.DataSource = null;
             dtgAutos.DataSource = VehiculoBss.TraerVehiculos();
@@ -76,7 +76,7 @@ namespace Tp_Integrador_Estacionamiento_
             dtgAutos.Columns["Turno"].Visible = false;
 
         }
-        public void TraerEstadias()
+        public void TraerEstadias()//Carga de estadias en dtg
         {
             dtgEstadias.DataSource = null;
             dtgEstadias.DataSource = EstadiaBss.TraerEstadias()
@@ -91,7 +91,7 @@ namespace Tp_Integrador_Estacionamiento_
                     e.ImporteTotal
                 }).ToList();
         }
-        public void ChequearPlazas(List<Plaza> plazas)
+        public void ChequearPlazas(List<Plaza> plazas)//Cambio de color de las plazas 
         {
             foreach (var plaza in plazas)
             {
@@ -110,7 +110,7 @@ namespace Tp_Integrador_Estacionamiento_
             dtgBorrador.Columns["Id"].Visible = false;
             dtgBorrador.Columns["Plaza"].Visible = false;
             dtgBorrador.Columns["Turno"].Visible = false;
-        }
+        }//Carga del borrador en dtg
 
         public void btnAbrirTurno_Click(object sender, EventArgs e)
         {
@@ -118,7 +118,7 @@ namespace Tp_Integrador_Estacionamiento_
             {
                 if (TurnoBss.ChequearTurno())
                 {
-                    MessageBox.Show("Ya hay un turno abierto", "Notificacion de sistema");
+                    MessageBox.Show("Ya hay un turno abierto", "Notificacion de sistema"); //Si ya se encuentra un turno abierto
                 }
                 else
                 {
@@ -133,9 +133,9 @@ namespace Tp_Integrador_Estacionamiento_
             {
                 MessageBox.Show(ex.Message);
             }
-        }
+        }//Apertura de turno
 
-        public void btnCerrarTurno_Click(object sender, EventArgs e)
+        public void btnCerrarTurno_Click(object sender, EventArgs e)//Cerrar turno abierto
         {
             try
             {
@@ -160,14 +160,14 @@ namespace Tp_Integrador_Estacionamiento_
             {
                 Vehiculo vehiculo = new Vehiculo();
                 vehiculo.Patente = Convert.ToInt32(Interaction.InputBox("Ingrese los 3 numeros de la patente", "ingreso de vehiculo"));
-                vehiculo.Plaza = PlazaBss.TraerPlazas().FirstOrDefault(p => !p.Estado);
+                vehiculo.Plaza = PlazaBss.TraerPlazas().FirstOrDefault(p => !p.Estado);//Se asigna primera plaza disponible
                 vehiculo.Turno = TurnoEstacionamiento;
                 vehiculo.TipoVehiculo = Interaction.InputBox("Ingrese el tipo de vehiculo", "ingreso de vehiculo");
                 vehiculo.Marca = Interaction.InputBox("Ingrese marca del vehiculo", "ingreso de vehiculo");
                 vehiculo.Modelo = Interaction.InputBox("Ingrese modelo del vehiculo", "ingreso de vehiculo");
                 vehiculo.Color = Interaction.InputBox("Ingrese color del vehiculo", "ingreso de vehiculo");
                 VehiculoBss.CargarVehiculo(vehiculo);
-                PlazaBss.ModificarEstadoPlaza(vehiculo.Plaza);
+                PlazaBss.ModificarEstadoPlaza(vehiculo.Plaza);//Se modifica el estado de la plaza asignada en BD
                 TraerVehiculos();
                 ChequearPlazas(PlazaBss.TraerPlazas());
             }
@@ -175,7 +175,7 @@ namespace Tp_Integrador_Estacionamiento_
             {
                 MessageBox.Show(ex.Message);
             }
-        }
+        }//Carga de vehiculo 
 
         private void btnBorrarEstadia_Click(object sender, EventArgs e)
         {
@@ -199,7 +199,7 @@ namespace Tp_Integrador_Estacionamiento_
             {
                 MessageBox.Show(ex.Message);
             }
-        }
+        }//Borrar vehiculo
 
         private void btnModificarEstadia_Click(object sender, EventArgs e)
         {
@@ -225,7 +225,7 @@ namespace Tp_Integrador_Estacionamiento_
             {
                 MessageBox.Show(ex.Message);
             }
-        }
+        }//Modificar vehiculo
 
         private void btnCerrarEstadia_Click(object sender, EventArgs e)
         {
@@ -261,7 +261,7 @@ namespace Tp_Integrador_Estacionamiento_
             {
                 MessageBox.Show(ex.Message);
             }
-        }
+        }//Cerrar estadia de vehiculo y facturar
 
         private void btnCargarBorrador_Click(object sender, EventArgs e)
         {
@@ -284,7 +284,7 @@ namespace Tp_Integrador_Estacionamiento_
             {
                 MessageBox.Show(ex.Message);
             }
-        }
+        }//Cargar vehiculo en borrador
 
         private void btnCargaMasiva_Click(object sender, EventArgs e)
         {
@@ -302,8 +302,6 @@ namespace Tp_Integrador_Estacionamiento_
                 ListaBorrador.Clear();
                 RefrescarBorrador();
             }
-        }
-
-        //cambio.-
+        }//Cargar vehiculos en borrador
     }
 }
